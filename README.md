@@ -14,5 +14,14 @@ SendGrid – este un serviciu care are ca principală funcționalitate experiere
 </h4>
 <h3>•	Fluxuri de date </h3>
 <h4>În cadrul aplicației se realizeaza get-uri și posturi pentru diferitele operatii efectuate de un client.
-![image](https://user-images.githubusercontent.com/72069136/168493439-25df99ff-2fe6-4925-8fb8-9d3dbf50fdbe.png)
+<img src="https://user-images.githubusercontent.com/72069136/168493439-25df99ff-2fe6-4925-8fb8-9d3dbf50fdbe.png" alt="Alt text" title="Optional title">
+Pentru ambele tabele ale aplicației au fost realizate operatiile crud de select, insert, update, delete pentru toata tabela cât și pentru id-uri explicite.
+Cele mai frecvente rude utilizate în aplicație sunt cele de get all messages, insert a rezervation, intert a message și cea de mailing care folosește serviciul sendGrid.
 </h4>
+<h3>•	Prezentarea Aplicației</h3>
+<img src="https://user-images.githubusercontent.com/72069136/168493551-30bc41d0-f618-48e8-b811-3335bf902223.png" alt="Alt text" title="Optional title">
+<h3>Aplicația prezintă 3 componente: </br>
+•	O listă de rezervări recente realizare de clienții restaurantului</br>
+•	Un formular de introducere a detalii lor unei rezervarii</br>
+•	Trimiterea de mail-uri către restaurant fiind realizată la apasarea butonului de rezerva, astfel se trimite un mail cu detaliile acesteia cât și se stocheama mesajul și rezervarea în baza de date
+</h3>
