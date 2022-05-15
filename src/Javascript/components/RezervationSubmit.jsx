@@ -54,7 +54,7 @@ function RezervationSubmit() {
 
     return (
         <div id="RezervationSubmit">
-            <h2 className='text-2xl font-bold mb-4'>Submit your rezervation.</h2>
+            <h2 className='text-2xl font-bold mb-4'>Rezerva o masa acum!</h2>
 
             <form>
                 {/* label + camp senderName && Name */}
@@ -106,7 +106,6 @@ function RezervationSubmit() {
 
             <button
                 className="bg-sky-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-3 "
-                value={"te pup"}
                 onClick={handlerRezervationSend}
             >Rezerva
             </button>

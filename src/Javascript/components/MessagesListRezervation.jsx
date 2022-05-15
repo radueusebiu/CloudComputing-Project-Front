@@ -27,7 +27,7 @@ function MessagesListRezervation() {
 
     return (
         <div id="MessagesListRezervation">
-            <h2 className='text-2xl font-bold mb-4'>Recent Rezervations</h2>
+            <h2 className='text-2xl font-bold mb-4'>Rezervari recente:</h2>
             <ul>
                 {
                     messages.length ? messages.map(messages =>
